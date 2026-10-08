@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+div{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    background-color: red;
+    width: 260px;
+    height: 260px;
+    flex-direction: column;
+    gap: 2px;
+    top: 100px;
+    left: 50px;
+    position: absolute;
+}
+#show{
+    float: right;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 200px;
+    height: 30px;
+    margin: 10px 30px;
+}
